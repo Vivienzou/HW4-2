@@ -10,8 +10,8 @@ def isprime(startnumber):
 for i in range(10**7+1):
     if isprime(i) == True:
         a = i
-        return a
+        b = mod(i,15)
+        return b
         
-v = finance.TimeSeries([1..10**7])
-v.plot_histogram(bins=a)
-v.plot_histogram(bins=50,normalize=False,aspect_ratio=1)
+
+stats.TimeSeries([1,10,100,1000,10**4,10**5,10**6,10**7]).plot_histogram()
